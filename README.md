@@ -1,8 +1,16 @@
 # Build a CLI Application with External Data
 
+I would like to build a CLI Application with Top 10 Engineering Universities in US
+
+1. User input which field of Top 10 Engineering Schools they would like to know
+2. User will get a list of 10 Engineering Schools in that field, ie. Top Electrial Engineering Schools in US
+3. Cli will ask user if they would like to know more details of one of the top 10 Schools
+4. User gives a number like 3 then cli will list the 3rd school name and school url for their reference
+
+
 ## Overview
 
-In this lesson you're going to build an application that provides a Command Line Interface (CLI) to an external data source. The CLI will be composed of an Object Oriented Ruby application. 
+In this lesson you're going to build an application that provides a Command Line Interface (CLI) to an external data source. The CLI will be composed of an Object Oriented Ruby application.
 
 **Please note that while you will be writing code to scrape data from a public website, what we're really looking for is your capacity to effectively write good object oriented ruby code (objects, not hashes, separation of concerns, etc.) - we're less interested in the details of the regex's or selector you're using to parse the web pages that you're scraping.**
 
@@ -42,7 +50,7 @@ Take the time to clone, run and look through the code for both of these in detai
 10. On Learn, submit links to the GitHub repository for your app, your video demo, and your blog post each to the corresponding textbox in the right rail, and hit "I'm done" to wrap it up.  
 
 
-## If you're a Learn-Verified Premium student: 
+## If you're a Learn-Verified Premium student:
 
 Unlike the rest of the curriculum, if you have any questions about your assessment or need help with it, please don’t use the Ask New Question feature. Rather than working with Learn Experts, please reach out to your Learn Instructor responsible for this section instead.
 
@@ -79,7 +87,7 @@ If necessary, after the assessment, be prepared to:
 
 - [How to build a ruby gem](http://guides.rubygems.org/make-your-own-gem/)
 - [How to publish your gem](http://guides.rubygems.org/publishing/)
-- [Environments, Requiring Files, Bundler, and Gems](https://www.youtube.com/watch?v=XBgZLm-sdl8) 
+- [Environments, Requiring Files, Bundler, and Gems](https://www.youtube.com/watch?v=XBgZLm-sdl8)
 - [Video- CLI Data Gem Walkthrough](https://www.youtube.com/watch?v=_lDExWIhYKI)
 - [Video- CLI Data Gem Walkthrough: Creating a CLI Scraper Gem](https://www.youtube.com/watch?v=Y5X6NRQi0bU)
 - [Video- Common Anti-Patterns in CLI Data Gem](https://www.youtube.com/watch?v=cbMa87oWv08)
